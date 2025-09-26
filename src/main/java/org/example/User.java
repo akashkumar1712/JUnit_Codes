@@ -1,0 +1,19 @@
+package org.example;
+
+public class User {
+    private int id;
+    private String name;
+
+    // constructor
+    public User(int id, String name){
+        this.id = id;
+        this.name = name;
+    }
+    // Getters
+    public int getId(){
+        return id;
+    }
+    public String getName(){
+        return name;
+    }
+}
